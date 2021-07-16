@@ -3,6 +3,7 @@ const process = require('process');
 const rmrf = require('rmrf');
 const { exec, execSync } = require('child_process');
 const path = require('path');
+const config=require('./config.json')
 
 let dir=""
 let dirExecInstall=""
@@ -84,11 +85,12 @@ try {
     //dir=path.join(dirSetInstall,"practice-x3-jwt")
     //createDir(dir)
     //changeDir(dir)
-    execCmdSync("git clone https://github.com/oliviermantel/practice-x3-jwt.git")
+    execCmdSync("git clone "+config.git.practice_x3_jwt)
     //dir=path.join(dirSetInstall,"practice-x3-graphql-server")
     //createDir(dir)
     //changeDir(dir)
-    execCmdSync("git clone https://github.com/oliviermantel/practice-x3-graphql-server.git")
+   
+    execCmdSync("git clone "+config.git.practice_x3_graphql_server)
     //createDirBeforeExecCmd(dir,"git clone https://github.com/oliviermantel/practice-x3-graphql-server.git")
     dir=path.join(dirSetInstall,"practice-x3-jwt")
     changeDir(dir)
