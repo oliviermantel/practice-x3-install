@@ -1,6 +1,6 @@
 const fs = require('fs');
 const process = require('process');
-const rmrf = require('rmrf');
+//const rmrf = require('rmrf');
 const { exec, execSync } = require('child_process');
 const path = require('path');
 const config=require('./config.json')
@@ -69,7 +69,7 @@ try {
   console.log("<-- Start :","Installation practice-x3")
   dirExecInstall=process.cwd()
   console.log("-- Directory : execution",dirExecInstall)
-  dirSetInstall=path.join(dirExecInstall,"../practice-x3")
+  dirSetInstall=config.dir.dir_install
   console.log("-- Directory : installation",dirSetInstall)
   
   
