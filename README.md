@@ -16,11 +16,11 @@ You can change the setiings in the file config.json.
 { 
     "git": 
     {
-    "practice_x3_jwt": "C:\\Sage\\GIT_LOCAL\\practice-x3-jwt\\.git",
-    "practice_x3_graphql_server":"C:\\Sage\\GIT_LOCAL\\practice-x3-graphql-server\\.git"
+    "practice_x3_jwt": "...\\practice-x3-jwt\\.git",
+    "practice_x3_graphql_server":"...\\practice-x3-graphql-server\\.git"
     },
     "dir":{
-        "dir_install":"C:\\Sage\\NODEJS\\x3-practice"
+        "dir_install":"...\\x3-practice"
     }
 }
 ```
