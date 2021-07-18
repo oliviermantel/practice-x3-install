@@ -1,10 +1,10 @@
 { 
     "git": 
     {
-    "practice-x3-jwt": "https://github.com/oliviermantel/practice-x3-jwt.git",
-    "practice-x3-graphql-server":"https://github.com/oliviermantel/practice-x3-graphql-server.git"
+    "practice-x3-jwt": "D:\\Sage\\Demo\\GIT_LOCAL\\practice-x3-jwt\\.git",
+    "practice-x3-graphql-server":"D:\\Sage\\Demo\\GIT_LOCAL\\practice-x3-graphql-server\\.git"
     },
     "dir":{
-        "dir-install":"C:\\Users\\olivier\\DATAS\\x3-practice"
+        "dir-install":"D:\\Sage\\Demo\\NODEJS\\x3-practice"
     }
 }
