@@ -16,11 +16,11 @@ You can change the setiings in the file config.json.
 { 
     "git": 
     {
-    "practice_x3_jwt": "...\\practice-x3-jwt\\.git",
-    "practice_x3_graphql_server":"...\\practice-x3-graphql-server\\.git"
+    "practice-x3-jwt": "...\\practice-x3-jwt\\.git",
+    "practice-x3-graphql-server":"...\\practice-x3-graphql-server\\.git"
     },
     "dir":{
-        "dir_install":"...\\x3-practice"
+        "dir-install":"...\\x3-practice"
     }
 }
 ```
